@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "myUbuntuVM"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "authenticationType": {
+      "value": "password"
+    },
+    "adminPasswordOrKey": {
+      "value": "Azure@Bootcamp2025!"
+    },
+    "ubuntuOSVersion": {
+      "value": "Ubuntu-2004"
+    },
+    "vmSize": {
+      "value": "Standard_B1s"
+    },
+    "virtualNetworkName": {
+      "value": "myVNet"
+    },
+    "subnetName": {
+      "value": "mySubnet"
+    },
+    "networkSecurityGroupName": {
+      "value": "myNSG"
+    },
+    "securityType": {
+      "value": "Standard"
+    }
+  }
+}
